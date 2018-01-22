@@ -1,6 +1,6 @@
 var LeafIcon = L.Icon.extend({
     options: {
-        iconSize:     [38, 95],
+        iconSize:     [45, 55],
        
         iconAnchor:   [22, 94],
 
