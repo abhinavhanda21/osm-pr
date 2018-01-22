@@ -8,8 +8,8 @@ var LeafIcon = L.Icon.extend({
 	 popupAnchor:  [-3, -76]
     }
 }); 
- var redIcon = new LeafIcon({iconUrl: 'map-redIcon.png'}),
-    blueIcon = new LeafIcon({iconUrl: 'map-blueIcon.png'});
+ var redIcon = new LeafIcon({iconUrl: 'redIcon.png'}),
+    blueIcon = new LeafIcon({iconUrl: 'blueIcon.png'});
     L.icon = function (options) {
     return new L.Icon(options);
 };
