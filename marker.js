@@ -1,14 +1,15 @@
 var LeafIcon = L.Icon.extend({
     options: {
-        iconSize:     [45, 55],
-       
+     
+        iconSize:     [45,55],
+
         iconAnchor:   [22, 94],
 
-        popupAnchor:  [-3, -76]
+	 popupAnchor:  [-3, -76]
     }
 }); 
- var redIcon = new LeafIcon({iconUrl: 'redIcon.png'}),
-    blueIcon = new LeafIcon({iconUrl: 'blueIcon.png'});
+ var redIcon = new LeafIcon({iconUrl: 'map-redIcon.png'}),
+    blueIcon = new LeafIcon({iconUrl: 'map-blueIcon.png'});
     L.icon = function (options) {
     return new L.Icon(options);
 };
