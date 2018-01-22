@@ -5,7 +5,7 @@
     <title>Leaflet OSRM Example</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
-    <link rel="stylesheet" href="../dist/leaflet-routing-machine.css" />
+    <link rel="stylesheet" href="leaflet-routing-machine.css" />
     <link rel="stylesheet" href="index.css" />
 </head>
 <body>
@@ -15,17 +15,6 @@
     <script src="Control.Geocoder.js"></script>
     <script src="config.js"></script>
     <script src="index.js"></script>
-    <script>
-    var greenIcon = L.icon({
-    iconUrl: 'osm-pr/assets/images.png',
-    shadowUrl: 'osm-pr/assets/images.png',
-
-    iconSize:     [38, 95], // size of the icon
-    shadowSize:   [50, 64], // size of the shadow
-    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-    shadowAnchor: [4, 62],  // the same for the shadow
-    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
-});
-</script>
+    <script src="marker.js"></script>
 </body>
 </html>
